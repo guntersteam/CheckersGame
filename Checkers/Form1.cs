@@ -20,8 +20,8 @@ namespace Checkers
 
             this.Text = "Checkers";
 
-            WhiteFigure = new Bitmap(new Bitmap(@"C:\Users\\Евгений\Desktop\Texture\white.png"), new Size(CellSize - 10, CellSize - 10));
-            BlackFigure = new Bitmap(new Bitmap(@"C:\Users\Евгений\Desktop\Texture\black.png"), new Size(CellSize - 10, CellSize - 10));
+            WhiteFigure = new Bitmap(new Bitmap(@"C:\Users\Евгений\source\repos\Checkers\Checkers\Sprites\white.png"), new Size(CellSize - 10, CellSize - 10));
+            BlackFigure = new Bitmap(new Bitmap(@"C:\Users\Евгений\source\repos\Checkers\Checkers\Sprites\black.png"), new Size(CellSize - 10, CellSize - 10));
             Init();
         }
 
